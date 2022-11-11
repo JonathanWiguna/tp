@@ -25,6 +25,8 @@ Take note of the following symbols and formatting used in this document:
 | :exclamation:        | Possible errors that might come from user interaction |
 | :bulb:               | Provides additional information about the feature     |
 
+--------------------------------------------------------------------------------------------------------------------
+
 <div style="page-break-after: always"></div>
 
 ## GUI
@@ -61,9 +63,9 @@ started!
 
 [Back to Top ↑](#table-of-contents)
 
-<div style="page-break-after: always"></div>
-
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always"></div>
 
 ## Features
 
@@ -136,8 +138,6 @@ Shows a list of all members in the User List window.
 
 Format: `list`
 
-<div style="page-break-after: always"></div>
-
 #### 1.3 Adding a member: `add`
 
 Adds a new member to EZLead.
@@ -188,7 +188,7 @@ Format: `find KEYWORD [MORE_KEYWORDS]`
 
 Examples:
 * `find Pam` returns `Pamella` and `Pam Doe`
-* `find alex david` returns `Alex Yeoh` and `David Li`<br>
+* `find alex david` returns `Alex Yeoh` and `David Li`
 
 ![result for 'find alex david'](images/foundAlexDavidResult.png)
 
