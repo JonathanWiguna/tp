@@ -22,6 +22,8 @@ Refer to the guide [_Setting up and getting started_](SettingUp.md).
 
 --------------------------------------------------------------------------------------------------------------------
 
+<div style="page-break-after: always"></div>
+
 ## **Design**
 
 <div markdown="span" class="alert alert-primary">
@@ -70,6 +72,8 @@ For example, the `Logic` component defines its API in the `Logic.java` interface
 
 The sections below give more details of each component.
 
+<div style="page-break-after: always"></div>
+
 ### UI component
 
 The **API** of this component is specified in [`Ui.java`](https://github.com/AY2223S1-CS2103T-W09-3/tp/blob/master/src/main/java/seedu/address/ui/Ui.java)
@@ -86,6 +90,8 @@ The `UI` component,
 * listens for changes to `Model` data so that the UI can be updated with the modified data.
 * keeps a reference to the `Logic` component, because the `UI` relies on the `Logic` to execute commands.
 * depends on some classes in the `Model` component, as it displays `Team` object residing in the `Model`.
+
+<div style="page-break-after: always"></div>
 
 ### Logic component
 
@@ -116,7 +122,10 @@ How the parsing works:
 * When called upon to parse a user command, the `AddressBookParser` class creates an `XYZCommandParser` (`XYZ` is a placeholder for the specific command name e.g., `AddCommandParser`) which uses the other classes shown above to parse the user command and create a `XYZCommand` object (e.g., `AddCommand`) which the `AddressBookParser` returns back as a `Command` object.
 * All `XYZCommandParser` classes (e.g., `AddCommandParser`, `DeleteCommandParser`, ...) inherit from the `Parser` interface so that they can be treated similarly where possible e.g, during testing.
 
+<div style="page-break-after: always"></div>
+
 ### Model component
+
 **API** : [`Model.java`](https://github.com/AY2223S1-CS2103T-W09-3/tp/blob/master/src/main/java/seedu/address/model/Model.java)
 
 <img src="images/ModelClassDiagram.png" width="700" />
@@ -136,6 +145,7 @@ The `Model` component,
 
 </div>
 
+<div style="page-break-after: always"></div>
 
 ### Storage component
 
@@ -153,6 +163,8 @@ The `Storage` component,
 Classes used by multiple components are in the `seedu.address.commons` package.
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always"></div>
 
 ## **Implementation**
 
@@ -320,6 +332,8 @@ The following sequence diagram shows how delete task operation works:
 ![TaskDeleteSequenceDiagram](images/TaskDeleteSequenceDiagram.png)
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always"></div>
 
 ## **Documentation, logging, testing, configuration, dev-ops**
 
@@ -642,6 +656,8 @@ Step 1 and 2 is repeated until all members have been added
 * **Private contact detail**: A contact detail that is not meant to be shared with others
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always"></div>
 
 ## **Appendix: Instructions for manual testing**
 
