@@ -25,17 +25,22 @@ Take note of the following symbols and formatting used in this document:
 | :exclamation:        | Possible errors that might come from user interaction |
 | :bulb:               | Provides additional information about the feature     |
 
+<div style="page-break-after: always"></div>
+
 ## GUI
 
 ### EZLead Main Window
 
 <img src= "images/GUIExplanation.png">
 
+<div style="page-break-after: always"></div>
+
 ### User List
 
 <img src= "images/userlist.png">
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always"></div>
 
 ## Quick Start
 
@@ -55,6 +60,8 @@ started!
 6. Refer to the [Features](#features) section in this user guide for more details on commands
 
 [Back to Top ↑](#table-of-contents)
+
+<div style="page-break-after: always"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -84,6 +91,8 @@ started!
 
 </div>
 
+<div style="page-break-after: always"></div>
+
 ### Parameters Summary
 
 Here is a summary of all the parameters used in EZLead commands:
@@ -102,6 +111,8 @@ Here is a summary of all the parameters used in EZLead commands:
 | **TASK-NAME**           | The name of the task.                                                               | It should only contain alphanumeric characters, spaces, parentheses, and the apostrophe. But it should not be blank.                                                |
 | **DEADLINE**            | The deadline of the task.                                                           | It should be a valid date in `DD-MM-YYYY` format.                                                                                                                   |
 | **TASK-INDEX**          | The index of the task as shown in the task list of the team in the **main window**. | It must be a **positive integer** (e.g. 1, 2, 3, ...) and cannot be more than the maximum integer value (i.e 2147483647). Otherwise it will be considered invalid.  |
+
+<div style="page-break-after: always"></div>
 
 ### 1. Person Features
 
@@ -124,6 +135,8 @@ Format: `userlist`
 Shows a list of all members in the User List window.
 
 Format: `list`
+
+<div style="page-break-after: always"></div>
 
 #### 1.3 Adding a member: `add`
 
@@ -178,6 +191,8 @@ Examples:
 * `find alex david` returns `Alex Yeoh` and `David Li`<br>
 
 ![result for 'find alex david'](images/foundAlexDavidResult.png)
+
+<div style="page-break-after: always"></div>
 
 ### 2. Team Features
 
@@ -254,6 +269,7 @@ MEMBER-INDEX is the index from the User List (refer to [`Viewing all members`](#
 Examples:
 * `unassign m/1 t/1` removes the first member in the global member list from the first team.
 
+<div style="page-break-after: always"></div>
 
 ### 3. Task Features
 
@@ -314,6 +330,8 @@ Examples:
 
 </div>
 
+<div style="page-break-after: always"></div>
+
 ### 4. General Features
 
 #### 4.1 Viewing help: `help`
@@ -345,6 +363,8 @@ to load in an EMPTY state.
 
 --------------------------------------------------------------------------------------------------------------------
 
+<div style="page-break-after: always"></div>
+
 ## Glossary
 
 Read this section to find out more about certain terms that might confuse you
@@ -366,6 +386,8 @@ Read this section to find out more about certain terms that might confuse you
 | **Tech Lead**   | Project manager or leader in a tech company                                                                                                                  |
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always"></div>
 
 ## FAQ
 
